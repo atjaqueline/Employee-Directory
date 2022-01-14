@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(252, 252, 252, 255);
+}
+
+body {
+    position: relative;
+}
+
+h1 {
+    margin: 50px auto 30px auto;
+    color: rgba(74, 74, 74, 255);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.card {
+    display: flex;
+    border: 2px solid rgba(229, 229, 229, 255);
+    border-radius: 10px;
+    height: 140px;
+    background-color: rgba(255, 255, 255, 255);
+    padding: 10px;
+}
+
+img.avatar {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: auto 5px auto auto;
+}
+
+.text-container p {
+    margin: 0;
+    color: rgba(175, 179, 181, 255);
+}
+
+.text-container h2 {
+    margin: 12px 0 12px 0;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.4)
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: auto;
+    justify-content: center;
+}
+
+.modal {
+    width: 375px;
+    margin: 15% auto auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    order: 1px solid #778;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.modal-close {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
