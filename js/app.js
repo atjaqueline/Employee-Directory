@@ -58,15 +58,20 @@ function displayModal(index) {
     const modalHTML = `
     <img class="avatar" src="${picture.large}" />
     <div class="text-container">
+    <div class="modaltop">
     <h2 class="name">${name.first} ${name.last}</h2>
     <p class="email">${email}</p>
     <p class="address">${city}</p>
-    <hr />
+    </div>
+    <hr>
+    <div class="modalbottom">
     <p>${phone}</p>
     <p class="address">${street}, ${state} ${postcode}</p>
     <p>Birthday:
     ${date.getMonth()}/${date.getDate()}/${date.getFullYear()}</p>
     </div>
+    </div>
+    
     `;
     overlay.classList.remove("hidden");
     modalContainer.innerHTML = modalHTML;

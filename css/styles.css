@@ -68,7 +68,8 @@ img.avatar {
 }
 
 .modal {
-    width: 375px;
+    width: 355px;
+    height: 400px;
     margin: 15% auto auto;
     position: relative;
     text-align: center;
@@ -76,6 +77,22 @@ img.avatar {
     border: 1px solid #778;
     border-radius: 5px;
     padding: 30px 20px;
+}
+
+.modaltop {
+    margin-bottom: 15px;
+}
+
+.modalbottom {
+    margin-top: 15px;
+}
+
+.modal-content {
+    margin: 40px;
+}
+
+hr {
+    width: 80%;
 }
 
 .modal-close {
