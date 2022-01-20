@@ -73,7 +73,7 @@ img.avatar {
     position: relative;
     text-align: center;
     background: #fff;
-    order: 1px solid #778;
+    border: 1px solid #778;
     border-radius: 5px;
     padding: 30px 20px;
 }
@@ -88,9 +88,3 @@ img.avatar {
 .hidden {
     display: none;
 }
-
-
-/*.modal {
-
-    display: ;
-} */
